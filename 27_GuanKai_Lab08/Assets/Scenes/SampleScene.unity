@@ -308,6 +308,7 @@ MonoBehaviour:
   USD: {fileID: 1602421651}
   Yen: {fileID: 1779424163}
   txtAmount: {fileID: 1060487371}
+  Debugtxt: {fileID: 439837233}
 --- !u!4 &227536944
 Transform:
   m_ObjectHideFlags: 0
@@ -1571,7 +1572,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1312826151}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 227536943}
+        m_MethodName: conversion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1312826151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1877,7 +1889,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1475991309}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 227536943}
+        m_MethodName: clear
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1475991309
 MonoBehaviour:
   m_ObjectHideFlags: 0
